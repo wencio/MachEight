@@ -38,9 +38,12 @@ Handled Error Cases:
 6. No pairs found: If no valid pairs are found, it displays a message indicating that no pairs were found.
 
 In summary, this code handles several error cases and provides an efficient solution for finding pairs of integers that sum to the specified target value.
+
 This code complies with the efficiency constraint that "The algorithm to find the pairs must be faster than O(n^2)" by using a strategy that has a more efficient time complexity. Instead of comparing every possible pair of numbers in a quadratic approach, it utilizes a set to keep track of previously seen numbers, allowing it to find pairs that sum to a target value in linear time, which is faster than O(n^2) for large lists of numbers. Additionally, the code handles edge cases appropriately, such as negative numbers and invalid target values, providing descriptive error messages when necessary.
+
 To run the code, you execute it using the following format:
      python app.py arguments
+
 For example:
     python app.py 1,9,5,0,20,-4,12,16,7 12
 
