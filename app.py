@@ -81,7 +81,7 @@ def main():
         
          # Check if there are no pairs found
         if not pairs:
-            print("No pairs found.")  # Imprimir un mensaje cuando no se encuentran pares
+            print("No pairs found.")  # Print a message when no pairs are found 
         else:
             # Print the found pairs
             for pair in pairs:
