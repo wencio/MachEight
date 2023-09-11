@@ -1,5 +1,5 @@
 # MachEight
-MatchEight challenge
+MatchEight challenge.
  Here's a description of the code and the error cases it handles:
 
 Code Description:
